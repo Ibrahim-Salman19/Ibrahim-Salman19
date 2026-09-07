@@ -1,37 +1,49 @@
-### Ibrahim Salman
+# Ibrahim Salman
 
 AI & automation developer based in Islamabad, Pakistan — software engineering background from UET Taxila. I build things that survive real-world failure, not just demo well: RAG assistants, OCR pipelines, source monitoring with alerting, and workflow automation. Ship first, polish after, honest about the trade-offs.
 
-**[ibrahimsalman.vercel.app](https://ibrahimsalman.vercel.app)** · **[LinkedIn](https://www.linkedin.com/in/ibrahim-salman-dev/)** · **[Email](mailto:ibrahim.pk848@gmail.com)**
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://ibrahimsalman.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ibrahim-salman-dev/)
+[![Email](https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white)](mailto:ibrahim.pk848@gmail.com)
+[![Followers](https://img.shields.io/github/followers/Ibrahim-Salman19?style=flat-square&logo=github&color=000000&label=followers)](https://github.com/Ibrahim-Salman19?tab=followers)
 
 ---
 
-#### What I work on
+### What I work on
 
-- **AI Assistants & RAG** — turn docs or a site into a grounded AI assistant, proven by UET GPT
-- **Document Intelligence** — extract and structure PDFs, scans, and images, proven by B.L.A.S.T.
-- **Monitoring & Extraction** — track changing sources, deliver structured alerts, proven by Marketplace Monitoring
-- **Workflow Automation** — connect sites, APIs, databases, and notifications, proven by the Menu Data Pipeline
+| Focus | What it does | Proof |
+|---|---|---|
+| **AI Assistants & RAG** | Turn docs or a site into a grounded AI assistant | UET GPT |
+| **Document Intelligence** | Extract and structure PDFs, scans, and images | B.L.A.S.T. |
+| **Monitoring & Extraction** | Track changing sources, deliver structured alerts | Marketplace Monitoring |
+| **Workflow Automation** | Connect sites, APIs, databases, and notifications | Menu Data Pipeline |
 
-#### Featured projects
+### Featured projects
 
-**[UET GPT](https://github.com/Ibrahim-Salman19/uet-gpt)** — flagship. A RAG assistant that answers university students' questions using real institutional data instead of guessing. Next.js, Convex, multi-provider LLM routing (Groq/Gemini/Cerebras), Clerk auth. **[Open application ↗](https://uet-gpt.vercel.app)** (sign-in required)
+| Project | What it does | Proof | Links |
+|---|---|---|---|
+| **UET GPT** — flagship | RAG assistant answering university students' questions with real institutional data instead of guesses | Next.js · Convex · Clerk · LLM routing across Groq/Gemini/Cerebras | [App ↗](https://uet-gpt.vercel.app) *(sign-in required)* · [Repo](https://github.com/Ibrahim-Salman19/uet-gpt) |
+| **B.L.A.S.T.** | OCR engine for PDFs, slides, and images | **61.6%** CER reduction · **3.9x** faster CPU latency (14-page benchmark) · 664 automated tests | [Demo ↗](https://ocr-book.streamlit.app/) · [Repo](https://github.com/Ibrahim-Salman19/OCR) |
+| **Marketplace Monitoring & Alerting** | Watches marketplaces, emails a structured digest the moment a listing appears | Fails closed on every external dependency · 299 tests incl. fuzz + adversarial · CI: 4 Python × 2 OS | *Repo private — deployed against real accounts* |
+| **Menu Data Pipeline** | Concurrently scrapes 17 restaurant sources into one validated dataset | Pydantic validation · pandas normalization · pushes to a live Google Sheet | [Repo](https://github.com/Ibrahim-Salman19/foodmenu_scraper) |
+| **Nightshade** | Rewrites code so it still compiles and runs correctly, but is designed to degrade as AI training data if scraped without permission | Java 21 · AST-based · SLSA provenance, Sigstore signing, SBOM · co-created with Saif-ur-Rehman | [Repo](https://github.com/Ibrahim-Salman19/night-shade) |
+| **Quantum Singularity** | Real-time WebGL2 particle simulation driven by hand gestures and live audio, zero backend | Up to 110,000 GPU particles | [Live ↗](https://animation-zeta-rosy.vercel.app/) · [Repo](https://github.com/Ibrahim-Salman19/quantum-singularity) |
 
-**[B.L.A.S.T.](https://github.com/Ibrahim-Salman19/OCR)** — OCR engine for PDFs, slides, and images. Measured **61.6% CER reduction** and **3.9x** faster CPU latency vs. baseline on a 14-page benchmark corpus, covered by 664 automated tests. **[Live demo](https://ocr-book.streamlit.app/)**
+### Stack
 
-**Marketplace Monitoring & Alerting** — watches marketplaces for new listings and emails a structured digest the moment one appears. Fails closed on every external dependency so an outage never means a silently missed lead. 299 tests, including fuzz and adversarial suites, across a 4 Python × 2 OS CI matrix. *(Repo private — deployed against real accounts.)*
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-000000?style=flat-square&logo=convex&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=flat-square&logo=tailwindcss&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-000000?style=flat-square&logo=playwright&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-000000?style=flat-square&logo=pytest&logoColor=white)
 
-**[Menu Data Pipeline](https://github.com/Ibrahim-Salman19/foodmenu_scraper)** — concurrently pulls and validates menu data from 17 restaurant sources, then pushes a clean dataset straight into a live Google Sheet.
-
-**[Nightshade](https://github.com/Ibrahim-Salman19/night-shade)** — rewrites code so it still compiles and runs correctly, but is designed to degrade as AI training data if scraped without permission. Java 21, AST-based, with supply-chain hardening (SLSA, Sigstore, SBOM). Co-created with Saif-ur-Rehman.
-
-**[Quantum Singularity](https://github.com/Ibrahim-Salman19/quantum-singularity)** — real-time WebGL2 particle simulation (up to 110,000 GPU particles), driven by hand gestures and live audio, no backend. **[Live](https://animation-zeta-rosy.vercel.app/)**
-
-#### Stack
-
-`Next.js 15` `React 19` `TypeScript` `Python 3.12` `FastAPI` `Convex` `Tailwind CSS` `PostgreSQL` `SQLite (WAL)` `Playwright` `Pytest`
-
-#### Writing
+### Writing
 
 Architecture teardowns and benchmarks on [my blog](https://ibrahimsalman.vercel.app/blog): grounded RAG systems, OCR benchmarking, fail-closed scraping design, and Next.js 15 production patterns.
 
