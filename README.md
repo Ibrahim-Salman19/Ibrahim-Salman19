@@ -22,7 +22,7 @@ AI & automation developer based in Islamabad, Pakistan — software engineering 
 
 | Project | What it does | Proof | Links |
 |---|---|---|---|
-| **UET GPT** — flagship | RAG assistant answering university students' questions with real institutional data instead of guesses | Next.js · Convex · Clerk · LLM routing across Groq/Gemini/Cerebras | [App ↗](https://uet-gpt.vercel.app) *(sign-in required)* · [Repo](https://github.com/Ibrahim-Salman19/uet-gpt) |
+| **UET GPT** — flagship | RAG assistant answering university students' questions with real institutional data instead of guesses | Next.js · Convex · Clerk · LLM routing across Groq/Gemini/Cerebras | [App ↗](https://uetgpt.site) |
 | **B.L.A.S.T.** | OCR engine for PDFs, slides, and images | **61.6%** CER reduction · **3.9x** faster CPU latency (14-page benchmark) · 664 automated tests | [Demo ↗](https://ocr-book.streamlit.app/) · [Repo](https://github.com/Ibrahim-Salman19/OCR) |
 | **Marketplace Monitoring & Alerting** | Watches marketplaces, emails a structured digest the moment a listing appears | Fails closed on every external dependency · 299 tests incl. fuzz + adversarial · CI: 4 Python × 2 OS | *Repo private — deployed against real accounts* |
 | **Menu Data Pipeline** | Concurrently scrapes 17 restaurant sources into one validated dataset | Pydantic validation · pandas normalization · pushes to a live Google Sheet | [Repo](https://github.com/Ibrahim-Salman19/foodmenu_scraper) |
